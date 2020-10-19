@@ -1,0 +1,134 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: sandybrown;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(215, 217, 246, 0.431);
+    padding: 20px;
+    
+}
+
+header {
+    font-size: 28px;
+    font-weight: bold;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+}
+
+form {
+    
+    color: beige;
+    text-shadow: 1px 1px black;
+    text-transform: uppercase;
+    
+    
+}
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(202, 48, 10);
+    text-shadow: 1px 1px black;
+    font-style: italic;
+}
+
+.radio {
+    font-size: 18px;
+    color: rgb(29, 134, 43);
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(2, 0, 0);
+    margin-top: 100px;
+    
+}
+
+
+.checkbox {
+    font-size: 18px;
+    color: rgb(248, 144, 26);
+    font-weight: bold;
+    text-shadow: 1px 1px  rgb(2, 0, 0);
+    
+}
+
+.alert {
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px rgb(2, 0, 0);
+    background-color: brown;
+    padding: 10px;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.btn-decide {
+    margin-top: 20px;
+    color: rgb(31, 61, 143);
+    text-shadow: 0.5px 0.5px black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.modal-title {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(202, 48, 10);
+    text-shadow: 1px 1px black;
+}
+
+.modal-body {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(7, 206, 206);
+    text-shadow: 1px 1px black;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: limegreen;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    padding: 5px 10px;
+}
+
+.btn-secondary {
+    background-color: firebrick;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    padding: 5px 10px;
+}
+
+.btn-like {
+    background-color: limegreen;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    padding: 5px 20px;
+}
+
+.btn-dislike {
+    background-color: firebrick;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    padding: 5px 10px;
+}
+
+.alertCancel {
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px rgb(2, 0, 0);
+    background-color: brown;
+    padding: 10px;
+    width: 30%;
+    margin-top: 10px;
+}
+
+
+
+

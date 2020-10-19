@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h2>Pizza</h2>
+    </header>
+
+    <form action="#" method="POST" class="form" id='fill-out-form'>
+        <div class="radio">
+        <p>Выберите размер пиццы</p>
+        <input  type="radio" name="size" value="small">маленькая
+        <input  type="radio" name="size" value="midle" checked>средняя
+        <input  type="radio" name="size" value="big">большая
+        </div>
+        <div class="checkbox">
+        <p>Выберите ингредиенты</p>
+        <input type="checkbox" name="cheese" id="cheese" class="checkbox" value="ingredient" checked>сыр
+        <input  type="checkbox" name="tomato" id="tomato" class="checkbox" value="ingredient">помидоры
+        <input  type="checkbox" name="chicken" id="chicken" class="checkbox" value="ingredient">курица
+        <input  type="checkbox" name="mushrooms" id="mushrooms" class="checkbox" value="ingredient">грибы
+        <input  type="checkbox" name="sausage" id="sausage" class="checkbox" value="ingredient">салями
+        </div>
+    </form>
+
+    <div class="alert alert-danger" role="alert" hidden id='alert'>
+        выберите не менее 3-х ингредиентов пиццы
+    </div>
+    <!-- <button>order pizza</button> -->
+
+    <button type="button" class="btn-decide" data-toggle="modal" data-target="#exampleModal" id='order'>
+        выбрать ингридиенты
+    </button>
+
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Заказ</h5>
+            
+            </div>
+            <div class="modal-body">
+            Пицца прибудет через 40 минут после заказа
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn-primary" id="confirm" data-dismiss="modal">подтвердить заказ</button>
+            <button type="button" class="btn-secondary" data-dismiss="modal" id='cancel'>отменить заказ</button>
+            
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="alertCancel alert-primary " role="alert" id='massageCancel' hidden>
+        вы отменили заказ
+    </div>
+    <div class="alert alert-primary textMassage" role="alert" id='cooking' hidden>
+        пицца готовится
+    </div>
+    <div class="service" id='service' hidden>
+        <p>Оцените пожалуйста наш сервис</p>
+        <div class="inner">
+        <button type="button" class="btn-like" id="like">Like</button>
+        <button type="button" class="btn-dislike"id="dislike">Dislike</button>
+        </div>
+    </div>
+
+</div>
+
+    <script src="main.js"></script>
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
+
+</body>
+</html>
